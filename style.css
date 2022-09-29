@@ -1,0 +1,162 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+margin:0;
+padding:0;
+border:0;
+outline:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+}
+
+body {
+line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+display:block;
+}
+
+nav ul {
+list-style:none;
+}
+
+blockquote, q {
+quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+content:'';
+content:none;
+}
+
+a {
+margin:0;
+padding:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+background-color:#ff9;
+color:#000;
+text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+background-color:#ff9;
+color:#000;
+font-style:italic;
+font-weight:bold;
+}
+
+del {
+text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+border-bottom:1px dotted;
+cursor:help;
+}
+
+table {
+border-collapse:collapse;
+border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+display:block;
+height:1px;
+border:0;
+border-top:1px solid #cccccc;
+margin:1em 0;
+padding:0;
+}
+
+input, select {
+vertical-align:middle;
+}
+
+/*.........................indexxxx  Main Code......................................*/
+*
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.navbar-inverse
+{
+    background-color: brown !important;
+}
+.wrapper
+{
+    height: 577px;
+    width: 1280px;
+}
+header
+{
+    height: 70px;
+    width: 100%;
+    background-color: brown;
+}
+footer
+{
+    height: 50px;
+    width: 100%;
+    background-color: brown;
+}
+li a
+{
+    color: wheat;
+    text-decoration: none;
+
+}
+.logo
+{
+    float: left;
+    padding-left: 20px;
+}.logo h1
+{
+    color: wheat; 
+    line-height: 35px;
+    font-size: x-large;
+}
+.box
+{
+    height: 300px;
+    width: 400px;
+    background-color: #8c5638;
+    margin: 40px auto;
+    border-radius: 5mm;
+    opacity: .7;
+    color: wheat;
+}
+.box h1
+{
+    text-align: center;
+    font-size: 35px;
+}
+.box p
+{
+    text-align: center;
+    font-size: 25px;
+}
+footer p
+{
+    color: wheat;
+    text-align: center;
+}
